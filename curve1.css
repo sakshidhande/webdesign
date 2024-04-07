@@ -1,0 +1,254 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display:flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.part1 .help
+{
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.part1 .help .div
+{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 20px;
+    padding-left: 10px;
+}
+
+.part1 .help .div ul li 
+{
+    /* color: blue; */
+    display: inline;
+    padding: 10px;
+}
+.part1 .header
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction:row ;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin-top: 8px;
+
+}
+.part1 .header .logo
+{
+   padding: 10px; 
+   line-height: 20px;
+   color:blue;
+}
+.part1 .header .logo h1
+{
+    font-size: 60px;
+}
+.header .menu ul li
+{
+display: inline;
+padding: 10px;
+line-height: 40px;
+}
+.header .menu ul li a
+{
+    font-size: 25px;
+    text-decoration: none;
+    color: black; 
+}
+.header .menu a:hover
+{
+    color:white;
+    background-color:blue;
+}
+.part1
+{
+    width: 100%;
+    height: 900px;
+    background-image: url(images/finza.jpg);
+}
+.part1 .headline
+{
+   margin-left: 100px;
+   padding: 120px;
+   width: 65%;
+   height: 80px;
+   /* border: 1px black solid; */
+}
+.part1 .headline h4
+{
+    font-size: 25px;
+    color: blue;
+    width: 30%;
+    height: 30px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
+
+.part1 .headline button
+{
+    margin-top: 18px;
+    width: 30%;
+    height: 58px;
+    background-color: blue;
+    color: white;
+    border-radius: 14px;
+    border-color: blue;
+    font-size: 20px;
+}
+.part1 .headline h1
+{
+    font-size: 70px;
+}
+.part2 
+{
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black;  */
+    gap: 5px;
+    /* margin-left: 10px; */
+}
+.part2 .group 
+{
+    padding: 20px;
+    width:100%; 
+    /* border: 1px solid black; */
+}
+.part2 .group  img
+{
+    /* margin-left: 10px; */
+    padding: 30px;
+    width: 100%;
+    height: 680px;
+}
+.part2  .headline
+{
+/* padding: 10px; */
+width: 100%;
+/* border: 1px solid black; */
+margin-top: 170px;
+}
+.part2  .headline button
+{
+    color: blue;
+    width: 110px;
+    height:38px;
+    font-size: 15px;
+    border-radius: 7px;
+    border-color: white;
+    margin-left: 10px;
+}
+.part2  .headline h1
+{
+    text-align: justify;
+    padding: 10px;
+    font-size: 45px;
+}
+.part2  .headline p
+{
+    text-align: justify;
+    padding: 10px;
+}
+
+.part2  .headline .sub ul li
+{
+   /* padding-bottom: 10px;
+   padding-top: 10px;
+   padding-left: 30px; */
+   padding: 10px;
+   display: inline;
+}
+.part2  .headline .sub ul li a
+{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;  
+}
+.part2  .headline .sub
+{
+padding: 20px;
+}
+.part3
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black;  */
+    /* margin-left: 30px; */
+}
+.part3 .sub  
+{
+    display: flex;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px;
+    /* border: 1px solid black;  */
+}
+.part3 .sub  .images
+{
+    margin-right: 10px;
+}
+.part3 .sub  .images a ion-icon
+{
+margin-top: 10px;
+/* border: 1px solid black;  */
+width: 40px;
+height: 40px;  
+}
+.part3 .sub  .list ul li
+{
+    text-decoration: none;
+}
+.part4 
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: rgb(46, 46, 211);
+    color: white;
+    
+}
+.part4 .sub h2
+{
+    font-size: 70px;
+}
+.part4 .sub h4
+{
+    font-size: 25px;
+}
+.part4 .sub a ion-icon
+{
+   background-color: white;
+   width: 30px;
+   height: 30px;
+   margin-left: 15px;
+   justify-content: center;
+   text-align: center;
+   margin-left: 55px;
+
+}
