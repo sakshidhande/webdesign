@@ -137,6 +137,8 @@ header{
     width: 33%;
     height: 50vh;
     border-radius: 1.4vw;
+    border: 2px solid black;
+    border-radius: 3vw;
 }
 .box h3
 {
@@ -294,6 +296,7 @@ button
 @media  (max-width:600px) {
     .home
     {
+        height: 75vh;
         padding: 5vw;
     }
     .home .welcome h1
@@ -334,7 +337,7 @@ button
 }
      .service-section 
      {
-        height: 220vh;
+        height: 200vh;
         gap: 4vw;
      }
      .service-section  h1
@@ -348,7 +351,7 @@ button
      }
      .service-section .services .box
      {
-        width: 80%;
+        width: 100%;
         padding: 10vw;
         justify-content:center;
         height: 100vh;
