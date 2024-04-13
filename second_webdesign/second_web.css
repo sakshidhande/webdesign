@@ -12,7 +12,7 @@
     margin: 2vw 2vw;
     position: relative;
 }
-.home
+#home
 {
     width: 100%;
     height:100vh; 
@@ -28,9 +28,9 @@
     flex-direction: row;
     height: 10vh;
     padding-top: 2vw;
-    /* background-color: lightblue; */
     justify-content: space-between;
     padding: 5vh 6vh;
+    position: sticky;
 }
 .header .logo img
 {
@@ -46,14 +46,14 @@ ul
     gap: 2.5vw;
     justify-content: space-between;
     font-size: 1.5vw;
-    text-decoration: none; 
-     
+    text-decoration: none;     
 }
 .header .menu a
 {
     text-decoration: none;
     border-radius: 2vh;
     color: white; 
+    position: sticky;
 }
 .header .menu a:hover
 {
@@ -107,7 +107,7 @@ header{
     color: lightcyan;
     background-color:lightgray;
 }
-.service-section
+#service-section
 {
     max-width: 100%;
     height:70vh;
@@ -116,10 +116,11 @@ header{
     display: flex;
     flex-direction: column;
 }
-.service-section h1
+#service-section h1
 {
     text-align: center;
     font-size: 3vw;
+    color: orange;
 }
 .services
 {
@@ -145,6 +146,7 @@ header{
     padding-top: 1vw;
     text-align: center;
     font-size: 1.5vw;
+    color: orange;
 }
 .box  img
 {
@@ -159,53 +161,54 @@ header{
     padding: 1vw;
     text-align: justify;
 }
-.client-section
+#client-section
 {
     width: 100%;
-    height: 30vh; 
+    height: 40vh; 
     display: flex;
     flex-direction: column;
     padding: 0vw 2vw;
-    background-color:orange;
 }
-.client-section img
+#client-section img
 {
     justify-content: space-evenly;
 }
-.client-section h1
+#client-section h1
 {
     padding: 2vw 2vw;
     text-align: center;
     font-size: 3vw;
+    color: orange;
 
 }
-.client-section .clients
+#client-section .clients
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1.5vw;
 }
-.client-section .clients .clint-item
+#client-section .clients .clint-item
 {
     width: 22%;
     height: 10vh;
 }
-.client-section .clients img
+#client-section .clients img
 {
     border-radius: 3.5vw;
 }
-.contact-section
+#contact-section
 {
     width: 100%;
-    height:80vh;
-    background-image: url(images/c2.jpg);
+    height:90vh;
+    background-image: url(images/contact.jpeg);
 }
-.contact-section h1
+#contact-section h1
 {
     padding: 2vw 2vw;
    text-align: center;
     font-size: 3vw;
+    color:white;
     /* padding-left: 30vw; */
 }
 .form
@@ -223,6 +226,11 @@ input
     padding: 10vw;
     width: 100%;
     margin-left:100px; 
+}
+label
+{
+    color: white;
+    font-size: 2vw;
 }
 input[type=Name]
 {
@@ -294,30 +302,20 @@ button
 }
 
 @media  (max-width:600px) {
-    .home
+    #home
     {
         height: 75vh;
         padding: 5vw;
     }
-    .home .welcome h1
+    #home .welcome h1
     {
         font-size: 5vw;
     }
-    .home .menu a
-    {
-        display: none;
-    }
-    .home .icon
-    {
-        font-weight: 800;
-        display: block;
-        font-size: 6vw;
-    }
-     .home .welcome p
+    #home .welcome p
      {
          font-size: 3vw;
      }
-     .home button
+     #home button
      {
     width: 15vw;
     height: 8vh;
@@ -328,51 +326,71 @@ button
     color: white;
     font-size: 3vw;
      }
-     .header .logo img
-{
-   width: 10vw;
-   height: 9vh;
+     .header 
+     {
+         width: 80%;
+         display: flex;
+         flex-direction: column;
+         height: 10vh;
+         /* justify-content: space-between; */
+         padding: 0 2vh;
+         position: sticky;
+     }
+     ul 
+    { 
+        margin-left: 13vw;
+    display: flex;
+    flex-direction: row;
+    font-size: 3vw;
+    text-decoration: none;     
+    }
+    .header .logo img
+   {
+   width: 9vw;
+   height: 6vh;
    border-radius:14vw;
    line-height: 7vh;
-}
-     .service-section 
+   margin-left: 40vw;
+   margin-bottom: 3vw;
+   }
+     #service-section 
      {
         height: 200vh;
         gap: 4vw;
      }
-     .service-section  h1
+     #service-section  h1
      {
         font-size: 5vw;
      }
-     .service-section .services
+     #service-section .services
      {
         display: flex;
         flex-direction: column;
      }
-     .service-section .services .box
+     #service-section .services .box
      {
         width: 100%;
         padding: 10vw;
         justify-content:center;
         height: 100vh;
      }
-     .service-section .services .box h3
+     #service-section .services .box h3
      {
         font-size: 4vw;
      }
-     .service-section .services p
+     #service-section .services p
      {
         font-size: 3vw;
      }
-     .client-section h1
+     #client-section h1
      {
         font-size: 5vw;
      }
-     .contact-section h1
+     #contact-section h1
      {
         font-size: 5vw;
      }
-     .contact-section button 
+     #contact-section button 
      {
         width: 12.5vw;
         height: 7vh;
