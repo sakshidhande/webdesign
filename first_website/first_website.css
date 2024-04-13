@@ -1,0 +1,383 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+
+    height: 100%;
+    width: 99%;
+    margin: 2vw 2vw;
+    position: relative;
+}
+.home
+{
+    width: 100%;
+    height:100vh; 
+    background-image: url(images/vegitables-bg.jpg);
+    /* background-image: url(images/bg3.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+}
+.header 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    padding-top: 2vw;
+    /* background-color: lightblue; */
+    justify-content: space-between;
+    padding: 5vh 6vh;
+}
+.header .logo img
+{
+   width: 5vw;
+   height: 8vh;
+   border-radius:14vw;
+   line-height: 7vh;
+}
+ul 
+{ 
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vw;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    text-decoration: none; 
+     
+}
+.header .menu a
+{
+    text-decoration: none;
+    border-radius: 2vh;
+    color: white; 
+}
+.header .menu a:hover
+{
+    color: white;
+    background-color: lightcoral;
+}
+.header .icon
+{
+  display: none;
+}
+header{
+    background-color:white ;
+    color: gray;
+}
+.welcome
+{
+    width: 100%;
+    height:100vh; 
+    padding: 6vw 12vw;
+    /* background-color: lightcoral; */
+   
+}
+.welcome h1
+{
+    color:orange;
+    font-size: 6vw;
+    text-align: center;
+    font-style: oblique;
+}
+.welcome p
+{
+    padding: 3vw;
+   text-align: justify;
+   font-size: 2vw;
+   color: white;
+}
+.welcome button
+{
+    width: 10vw;
+    height: 7.5vh;
+    padding: 1vw;
+    border-radius:  4vw;;
+    border: none;
+    margin-left: 33vw;
+    color: white;
+    font-size: 1.5vw;
+    background-color: orange;
+}
+.welcome button :hover
+{
+    color: lightcyan;
+    background-color:lightgray;
+}
+.service-section
+{
+    max-width: 100%;
+    height:70vh;
+    padding: 3vw ;
+    /* overflow-x: auto; */
+    display: flex;
+    flex-direction: column;
+}
+.service-section h1
+{
+    text-align: center;
+    font-size: 3vw;
+}
+.services
+{
+    max-width: 100%;
+    height: 65vh;
+    padding: 3vw ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box 
+{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 50vh;
+    border-radius: 1.4vw;
+}
+.box h3
+{
+    padding-top: 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.box  img
+{
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    padding: 1.5vw 1.5vw;
+}
+.box p
+{
+    font-size: 1.2vw;
+    padding: 1vw;
+    text-align: justify;
+}
+.client-section
+{
+    width: 100%;
+    height: 30vh; 
+    display: flex;
+    flex-direction: column;
+    padding: 0vw 2vw;
+    background-color:orange;
+}
+.client-section img
+{
+    justify-content: space-evenly;
+}
+.client-section h1
+{
+    padding: 2vw 2vw;
+    text-align: center;
+    font-size: 3vw;
+
+}
+.client-section .clients
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5vw;
+}
+.client-section .clients .clint-item
+{
+    width: 22%;
+    height: 10vh;
+}
+.client-section .clients img
+{
+    border-radius: 3.5vw;
+}
+.contact-section
+{
+    width: 100%;
+    height:80vh;
+    background-image: url(images/c2.jpg);
+}
+.contact-section h1
+{
+    padding: 2vw 2vw;
+   text-align: center;
+    font-size: 3vw;
+    /* padding-left: 30vw; */
+}
+.form
+{
+    /* margin-left: 150px; */
+    text-align: justify;
+    width: 50%;
+    height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 28vw;
+}
+input
+{
+    padding: 10vw;
+    width: 100%;
+    margin-left:100px; 
+}
+input[type=Name]
+{
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background-color :rgb(239, 233, 233);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 16px;
+    border:none;
+    outline: none;
+}
+
+input[type=email]
+{
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background-color :rgb(239, 233, 233);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 16px;
+    border:none;
+    outline: none;
+}
+input[type=contact]
+{
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background-color :rgb(239, 233, 233);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 16px;
+    border:none;
+    outline: none;
+}
+input[type=message]
+{
+    padding: 10px;
+    height: 15vh;
+    margin: 5px 0 22px 0;
+    background-color :rgb(239, 233, 233);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 16px;
+    border:none;
+    outline: none;
+}
+button
+{
+   width: 8vw;
+   height: 6vh;
+    /* background-color:lightgreen; */
+    border-color:white;
+    justify-content: center;
+    font-size: 1.3vw;
+    border-radius: 1.3vw;
+    margin-left: 18vw;
+}
+
+.footer
+{
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: black;
+    color: white;
+    padding-top: 1.5vw;
+}
+
+@media  (max-width:600px) {
+    .home
+    {
+        padding: 5vw;
+    }
+    .home .welcome h1
+    {
+        font-size: 5vw;
+    }
+    .home .menu a
+    {
+        display: none;
+    }
+    .home .icon
+    {
+        font-weight: 800;
+        display: block;
+        font-size: 6vw;
+    }
+     .home .welcome p
+     {
+         font-size: 3vw;
+     }
+     .home button
+     {
+    width: 15vw;
+    height: 8vh;
+    padding: 2vw;
+    border-radius:  6vw;;
+    border: none;
+    margin-left: 28vw;
+    color: white;
+    font-size: 3vw;
+     }
+     .header .logo img
+{
+   width: 10vw;
+   height: 9vh;
+   border-radius:14vw;
+   line-height: 7vh;
+}
+     .service-section 
+     {
+        height: 220vh;
+        gap: 4vw;
+     }
+     .service-section  h1
+     {
+        font-size: 5vw;
+     }
+     .service-section .services
+     {
+        display: flex;
+        flex-direction: column;
+     }
+     .service-section .services .box
+     {
+        width: 80%;
+        padding: 10vw;
+        justify-content:center;
+        height: 100vh;
+     }
+     .service-section .services .box h3
+     {
+        font-size: 4vw;
+     }
+     .service-section .services p
+     {
+        font-size: 3vw;
+     }
+     .client-section h1
+     {
+        font-size: 5vw;
+     }
+     .contact-section h1
+     {
+        font-size: 5vw;
+     }
+     .contact-section button 
+     {
+        width: 12.5vw;
+        height: 7vh;
+         font-size: 3vw;
+    margin-left: 18vw;
+     }
+     .footer
+     {
+        font-size: 3vw;
+     }
+}
